@@ -1,24 +1,6 @@
 /* eslint-env node */
 require('@rushstack/eslint-patch/modern-module-resolution');
 
-// module.exports = {
-//   root: true,
-//   extends: [
-//     'plugin:vue/vue3-essential',
-//     'eslint:recommended',
-//     '@vue/eslint-config-typescript/recommended',
-//     '@vue/eslint-config-prettier',
-//   ],
-//   rules: {
-//     quotes: ['error', 'single', { avoidEscape: true, allowTemplateLiterals: false }],
-//   },
-//   overrides: [
-//     {
-//       files: ['cypress/e2e/**.{cy,spec}.{js,ts,jsx,tsx}'],
-//       extends: ['plugin:cypress/recommended'],
-//     },
-//   ],
-// };
 module.exports = {
   // https://eslint.org/docs/user-guide/configuring#configuration-cascading-and-hierarchy
   // This option interrupts the configuration hierarchy at this file

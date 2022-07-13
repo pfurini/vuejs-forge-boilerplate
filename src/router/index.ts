@@ -16,6 +16,11 @@ const router = createRouter({
       component: () => import('@/pages/BoardsPage.vue'),
     },
     {
+      name: 'board',
+      path: '/boards/:id',
+      component: () => import('@/pages/BoardPage.vue'),
+    },
+    {
       name: 'settings',
       path: '/settings',
       component: () => import('@/pages/SettingsPage.vue'),
