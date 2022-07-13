@@ -51,14 +51,7 @@ export interface Comment extends Resource8base {
   task?: Partial<Task>;
 }
 
-type LabelColor =
-  | "red"
-  | "orange"
-  | "yellow"
-  | "green"
-  | "blue"
-  | "purple"
-  | "pink";
+type LabelColor = 'red' | 'orange' | 'yellow' | 'green' | 'blue' | 'purple' | 'pink';
 
 export interface Label extends Resource8base {
   label: string;
