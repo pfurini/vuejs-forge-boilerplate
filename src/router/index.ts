@@ -15,6 +15,16 @@ const router = createRouter({
       path: '/boards',
       component: () => import('@/pages/BoardsPage.vue'),
     },
+    {
+      name: 'settings',
+      path: '/settings',
+      component: () => import('@/pages/SettingsPage.vue'),
+    },
+    {
+      name: 'templates',
+      path: '/templates',
+      component: () => import('@/pages/TemplatesPage.vue'),
+    },
   ],
 });
 
